@@ -61,11 +61,11 @@ export default function Home() {
         <div className="container mx-auto flex justify-between items-center py-4">
           <Link href="/" className="flex items-center gap-2">
             <Image
-              src="/cadeza-logo.png"
+              src="/Logo.jpg"
               alt="Cadeza Logo"
-              width={120}
-              height={40}
-              className="h-10 w-auto"
+              width={200}
+              height={100}
+              objectFit="contain"
             />
           </Link>
           <nav className="hidden md:flex gap-8">
@@ -447,7 +447,7 @@ export default function Home() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                   <div>
                     <Image
-                      src="/placeholder.svg?height=600&width=800&query=apartment+floor+plan+type+A"
+                      src="/Tipo/TIPOA.jpg"
                       alt="Tipo A"
                       width={800}
                       height={600}
@@ -481,7 +481,7 @@ export default function Home() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                   <div>
                     <Image
-                      src="/placeholder.svg?height=600&width=800&query=apartment+floor+plan+type+B"
+                      src="/Tipo/TIPOB.jpg"
                       alt="Tipo B"
                       width={800}
                       height={600}
@@ -515,7 +515,7 @@ export default function Home() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                   <div>
                     <Image
-                      src="/placeholder.svg?height=600&width=800&query=apartment+floor+plan+type+C"
+                      src="/Tipo/TIPOC.jpg"
                       alt="Tipo C"
                       width={800}
                       height={600}
@@ -550,7 +550,7 @@ export default function Home() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                   <div>
                     <Image
-                      src="/placeholder.svg?height=600&width=800&query=apartment+floor+plan+type+D"
+                      src="/Tipo/TIPOD.jpg"
                       alt="Tipo D"
                       width={800}
                       height={600}
@@ -585,7 +585,7 @@ export default function Home() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                   <div>
                     <Image
-                      src="/placeholder.svg?height=600&width=800&query=apartment+floor+plan+type+E"
+                      src="/Tipo/TIPOE.jpg"
                       alt="Tipo E"
                       width={800}
                       height={600}
@@ -619,7 +619,7 @@ export default function Home() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                   <div>
                     <Image
-                      src="/placeholder.svg?height=600&width=800&query=apartment+floor+plan+type+F"
+                      src="/Tipo/TIPOF.jpg"
                       alt="Tipo F"
                       width={800}
                       height={600}
@@ -653,11 +653,12 @@ export default function Home() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                   <div>
                     <Image
-                      src="/placeholder.svg?height=600&width=800&query=apartment+floor+plan+type+G"
+                      src="/Tipo/TIPOG.png"
                       alt="Tipo G"
-                      width={800}
-                      height={600}
-                      className="w-full h-auto rounded-xl"
+                      width={100}
+                      height={100}
+                      objectFit="cover"
+                      className="w-full h-full max-h-[600px]  rounded-xl object-contain"
                     />
                   </div>
                   <div className="flex flex-col justify-center">
