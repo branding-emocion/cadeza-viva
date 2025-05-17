@@ -63,8 +63,8 @@ export default function Home() {
             <Image
               src="/Logo.jpg"
               alt="Cadeza Logo"
-              width={200}
-              height={100}
+              width={90}
+              height={50}
               objectFit="contain"
             />
           </Link>
